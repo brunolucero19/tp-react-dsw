@@ -1,7 +1,9 @@
-import { CounterComponent } from './components/counterComponent/CounterComponent'
-import { FormComponent } from './components/formComponent/FormComponent'
-import { MiPrimerComponente } from './components/miPrimerComponente/MiPrimerComponente'
-import { UseEffectComponent } from './components/useEffectComponent/UseEffectComponent'
+// import { CounterComponent } from './components/counterComponent/CounterComponent'
+// import { FormComponent } from './components/formComponent/FormComponent'
+// import { MiPrimerComponente } from './components/miPrimerComponente/MiPrimerComponente'
+// import { UseEffectComponent } from './components/useEffectComponent/UseEffectComponent'
+
+import { AppProduct } from './components/AppProduct/AppProduct'
 
 export const App = () => {
   //   const [enableCounter, setEnableCounter] = useState<boolean>(false)
@@ -9,7 +11,7 @@ export const App = () => {
 
   return (
     <>
-      <MiPrimerComponente text='Aguante Boca' color='blue' fontSize={32} />
+      {/* <MiPrimerComponente text='Aguante Boca' color='blue' fontSize={32} />
       {/* {enableCounter && <CounterComponent />}
       <button
         onClick={() => {
@@ -17,10 +19,11 @@ export const App = () => {
         }}
       >
         {textButton} counter
-      </button> */}
+      </button> 
       <CounterComponent />
       <UseEffectComponent />
-      <FormComponent />
+      <FormComponent /> */}
+      <AppProduct />
     </>
   )
 }
