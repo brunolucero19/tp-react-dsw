@@ -8,4 +8,6 @@ Para los estilos se usa la librería de componentes muy conocida `Bootstrap`.
 
 Para probar el código debes clonar el repositorio o descargarlo como .zip e ingresar la carpeta del proyecto. Luego debes instalar las dependencias para su funcionamiento usando `npm install`, y luego puedes ejecutar el proyecto usando `npm run dev`.
 
+Si quieres interactuar con el proyecto puedes verlo en https://tp-react-dsw.vercel.app/
+
 Gracias por tu atención!
